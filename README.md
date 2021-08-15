@@ -22,12 +22,11 @@ Create a simple dynamic website which has the following specs.
 3. No Login Page. No User Creation. Only transfer of money between multiple users.
 
 # TECHNOLOGIES USED
-frontend-html 
 
-frontend-css
+![HTML](https://img.shields.io/badge/frontend-html-orange.svg?logo=html5&style=flat-square)
+![CSS](https://img.shields.io/badge/frontend-css-yellowgreen.svg?logo=css3&style=flat-square)
+![Mysql](https://img.shields.io/badge/backend-Mysql-pink.svg?logo=Mysql&style=flat-square)
+![PHP](https://img.shields.io/badge/backend-PHP-yellow.svg?logo=PHP&style=flat-square)
 
-frontend-js
+# WEBSITE LINK
 
-backend-php
-
-backend-sql
