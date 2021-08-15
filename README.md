@@ -24,6 +24,6 @@ Create a simple dynamic website which has the following specs.
 # TECHNOLOGIES USED
 frontend-html
 frontend-css
-frontnd-js
+frontend-js
 backend-php
 backend-sql
