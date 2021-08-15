@@ -22,4 +22,8 @@ Create a simple dynamic website which has the following specs.
 3. No Login Page. No User Creation. Only transfer of money between multiple users.
 
 # TECHNOLOGIES USED
-
+frontend-html
+frontend-css
+frontnd-js
+backend-php
+backend-sql
