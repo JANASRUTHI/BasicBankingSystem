@@ -1,0 +1,166 @@
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 450px;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.bank-name
+          {
+            position: relative;
+            animation: mymove 5s infinite;
+          }
+          @keyframes mymove 
+          {
+            0%{color: rgb(163, 134, 134);}
+            33%{color:palegoldenrod;}
+            66%{color: rgb(70, 70, 3);}
+            100%{color: white;}
+            from {left: 0vw;}
+            to {left: 30vw;}
+          }
+          #home
+          {
+            border: 1px;
+            background: rgb(90, 90, 95);
+            cursor: not-allowed;
+            color:black;
+          }
+          #Contactus
+          {
+            color: black;
+            border: 1px;
+            background: none;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+          #Contactus:hover
+          {
+            background-color: #ba0c86;
+            background-image: linear-gradient(315deg, #ba0c29 0%, #aaa8aa 74%);
+          }
+          #Contactus:active 
+          {
+            background-color: #c4c723;
+            box-shadow: 0 1.2vw rgb(131, 130, 130);
+            transform: translateY(1vw);
+          }
+          #view-customers
+          {
+            margin-left: 1vw; 
+            border: none;
+            background: none;
+            border-radius: 1vw;
+            color: white; 
+            font-size: 1.5vw; 
+            font-weight: bolder;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+          #view-customers:hover
+          {
+            background-color: #7dda13;
+            background-image: linear-gradient(315deg, #582cf7 0%, #666565 74%);
+          }
+          #View-customers:active 
+          {
+            background-color: #673e8e;
+            box-shadow: 0 1.2vw #666;
+            transform: translateY(1vw);
+          }
+          #view-transactions
+          {
+            margin-left: 1vw; 
+            border: none;
+            background: none;
+            border-radius: 1vw;
+            color: white; 
+            font-size: 1.5vw; 
+            font-weight: bold;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+          #view-transactions:hover
+          {
+            background-color:#7dda13;
+            background-image: linear-gradient(315deg,#582cf7 0%, #666565 74%);
+          }
+          #View-transactions:active 
+          {
+            background-color: #673e8e;
+            box-shadow: 0 1.2vw #666;
+            transform: translateY(1vw);
+          }
+          @keyframes spin3D 
+          {
+            from { transform: rotateY(360deg) }
+            to { transform: rotateY(0deg) }
+          }
+          .w4-container{
+            text-align:center ;
+            background-image: linear-gradient(315deg, #9b7c9e 0%, darkgray 74%);
+              font-family:cursive;
+              font-size: medium;
+              padding: 4rem 1rem;
+          }
+          #phone
+          {
+            height: 30px;
+            border: none;
+            background: none;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+          }
+          #phone:hover
+          {
+            border-bottom: 1px double white;
+          }
+          #phone:active 
+          {
+            background-color: #f83d75;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+          }
+          #email
+          {
+            color: black; 
+            font-size: 18px;
+            height: 30px;
+            border: none;
+            background: none;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+          }
+          #email:hover
+          {
+            border-bottom: 1px double white;
+          }
+          #email:active 
+          {
+            background-color: #f87b7b;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+          }
+        
